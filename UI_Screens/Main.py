@@ -8,7 +8,7 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__) #create the Flask app
 
 #CONNECTION DATABASE
-mydb = mysql.connector.connect(host='localhost', user='root', passwd='banFin_ML@888', db='banking')
+mydb = mysql.connector.connect(host='<< >>', user='<< >>', passwd='<< >>', db='<< >>')
 cursor = mydb.cursor()
 
 @app.route('/')
