@@ -5,7 +5,7 @@ import os
 print ("In")
 
 #CONNECTION DATABASE
-mydb = mysql.connector.connect(host='localhost', user='root', passwd='<< >>', db='banking')
+mydb = mysql.connector.connect(host='<< >>', user='<< >>', passwd='<< >>', db='<< >>')
 cursor = mydb.cursor()
 
 #cursor.execute ('DELETE FROM banking.requests')
